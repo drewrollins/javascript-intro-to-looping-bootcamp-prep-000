@@ -7,9 +7,13 @@ function forLoop(array) {
       array.push(`I am ${i} strange loops.`);
     }
   }
-  return array
+  return array;
 }
 
-function whileLoop(59) {
-  
+var countdown = 59;
+function whileLoop(countdown) {
+  while (countdown > 0) {
+    console.log(--countdown) 
+  }
+  return "done";
 }
